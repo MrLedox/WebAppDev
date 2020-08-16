@@ -5,17 +5,9 @@
         <title>Mini CV</title>
         <style>
 
-            td {
-                border: 1px solid black;
-            }
-
             img {
                 width: 200px;
                 height: 260px;
-            }
-
-            .center_text{
-                text-align: center;
             }
 
             .center_table{
@@ -23,27 +15,56 @@
                 margin-right: auto;
             }
 
-            .section_title {
-                background-color: aqua;
-                text-align: center;
-                font-weight: bold;
-                margin-top: auto;
-                margin-bottom: auto;
-                margin-left: 100px;
-                margin-right: 100px;
+            .img_padding{
+                padding-left: auto;
+                padding-right: 20px;
+                padding-top: 30px;
+            }
+
+            .top_text{
+                vertical-align: top;
+                text-align: left;
+            }
+
+            h1 {
+                font-family:"Times New Roman", Times, serif;
             }
 
         </style>
     </head>
 
     <body>
-        <h1 style="text-align:center;">Ana Lizbeth Zermeño Torres</h1>
-        <p class="center_text">+52 351 145 5619</p>
+
         <table class="center_table">
             <tr>
-                <td><img src="vcpic.jpeg" alt="Foto CV"></td>
-                <td><h3 class="section_title">Education</h3></td>
+                <td class="img_padding"><img src="vcpic.jpeg" alt="Foto CV"></td>
+                <td class="top_text" style="padding-top: 10px;">
+                    <h1>Ana Lizbeth <br> Zermeño Torres</h1>
+                    <br>
+                    <h4>B.S.</h4>
+                    <h4>Computer Science and Technology </h4>
+                </td>
             </tr>
+            <tr>
+                <td><p>Gender: female</p><p>Age: 19</p><p>Nayarit, México</p></td>
+                <td class="top_text"><hr><h3>PROFESSIONAL AREA INTEREST</h3><hr></td>
+            </tr>
+            <tr>
+                <td>
+                    <hr><h3>LANGUAGES</h3><hr>
+                    <ul>
+                        <li>Spanish</li>
+                        <li>English</li>
+                        <li>Francés</li>
+                        <li>Italian</li>
+                    </ul>
+                </td>
+            </tr>
+
         </table>
+
+        
+        
+
     </body>
 </html>

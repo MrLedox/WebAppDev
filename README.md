@@ -1,2 +1,2 @@
 # WebAppDev
-In this repo are all of my activities from Web Applications Development class
+This repo contains my activities from Web Applications Development class

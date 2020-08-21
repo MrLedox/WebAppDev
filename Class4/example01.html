@@ -1,0 +1,28 @@
+<html>
+<head>
+<script language="javascript">
+function funcaoCalc(){
+var a=Number(document.getElementById("number1").value);
+var b=Number(document.getElementById("number2").value);
+var sum=0;
+sum=a+b;
+document.write("The sum is = ");
+document.write(sum);
+if(a>b){
+document.write("<br>A is bigger ");}
+else {
+document.write("<br>B is bigger");
+}
+}
+
+</script>
+
+</head>
+<body>
+<h1>Example 01</h1>
+<p id="demo">The sum is here, after button pressed</p>
+Number 1: <input type="number" id="number1"><br>
+Number 2: <input type="number" id="number2"><br>
+<button type="button" onclick="funcaoCalc()">C A L C</button>
+</body>
+</html>

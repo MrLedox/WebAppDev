@@ -63,3 +63,19 @@ body {
         flex-direction: column;
     }
 }
+
+.claro body {
+    background-color:white;
+}
+
+.oscuro body {
+    background-color: darkslategray;
+    color:white;
+}
+
+.selector {
+    margin: 10px;
+    text-align: right;
+    cursor: pointer;
+    text-decoration:underline;
+}

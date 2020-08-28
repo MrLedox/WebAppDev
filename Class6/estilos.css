@@ -13,8 +13,7 @@ nav div {
     background-color: teal;
     margin-left: 10px;
     margin-right: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px;
     border-radius: 8px;
     color: white;
 }
@@ -29,12 +28,17 @@ nav a{
     
 }
 
+.logo {
+    background: transparent;
+    flex-grow: 1;
+}
+
 .logo img {
-    width: 50px;
-    height: 40px;
+    height: 50px;
 }
 
 body {
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0px;
@@ -58,7 +62,7 @@ body {
     padding: 15px;
 }
 
-@media (max-wigth:700px) {
+@media (max-width:700px) {
     .cuerpo {
         flex-direction: column;
     }
